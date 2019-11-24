@@ -80,4 +80,4 @@ jobs:
       env:
         AWS_DEFAULT_REGION: ap-southeast-2
         AWS_ACCESS_KEY_ID: ${{ secrets.AccesskeyID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.Secretaccesskey }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.SecretAccessKey }}
