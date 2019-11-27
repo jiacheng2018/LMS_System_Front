@@ -1,0 +1,1 @@
+export const LISTPAGE_BASE_URL = '/listpage';
