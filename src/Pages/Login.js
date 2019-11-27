@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Dashboard from '../UI/dashboard/Dashboard';
-import SignIn from '../login/SignIn';
+import Dashboard from '../UIComponent/Dashboard'
+import SignIn from '../Pages/SignIn'
 
 function Login() {
     return (
