@@ -1,17 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Login from './Pages/Login';
-import Routes from './routes/Routes';
-
+import Routes from './Routes/Route';
+import Topnav from './Navigation/TopNav';
 function App() {
-  return (
-    <div>
-      <main>
-        <Routes />
-      </main>
-    </div>
-  );
+          return (
+                    <Fragment>
+                              <Topnav />
+                              <Routes />
+                    </Fragment>
+          );
 }
 
 export default App;
