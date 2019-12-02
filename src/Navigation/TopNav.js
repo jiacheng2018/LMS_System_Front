@@ -50,6 +50,23 @@ export default function ButtonAppBar() {
                                                   >
                                                             News
                                                   </Typography>
+
+                                                  {/* <IconButton
+                                                            color="inherit"
+                                                            aria-label="open drawer"
+                                                            onClick={
+                                                                      handleDrawerOpen
+                                                            }
+                                                            edge="start"
+                                                            className={clsx(
+                                                                      classes.menuButton,
+                                                                      {
+                                                                                [classes.hide]: open
+                                                                      }
+                                                            )}
+                                                  >
+                                                            <MenuIcon />
+                                                  </IconButton> */}
                                                   <Button color="inherit">
                                                             Login
                                                   </Button>
